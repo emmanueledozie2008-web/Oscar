@@ -45,7 +45,6 @@ export default function Validate() {
         Welcome to the Pi browser
       </p>
       <div className="mt-20">
-        {/* 💥 */}
         <div className="grid sm:grid-cols-5  grid-cols-3 justify-around flex-wrap gap-10">
           {renderLinks()}
         </div>
