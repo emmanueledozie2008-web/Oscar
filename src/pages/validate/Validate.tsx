@@ -22,7 +22,7 @@ export default function Validate() {
     { name: "KYC", image: kyc },
     { name: "Chat", image: chat },
     { name: "Profile", image: profile },
-    { name: "Exchange", image: p2p },
+    { name: "P2P", image: p2p },
   ];
   function renderLinks() {
     return linkItems.map((l) => (
