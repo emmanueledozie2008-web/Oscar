@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="z-10">
           <Link to={"/validate"}>
             <button className="border-2 group transition-colors duration-300 text-secondary hover:text-white flex items-center gap-4 border-secondary bg-transparent hover:bg-secondary px-5 py-2 lg:py-4 lg:text-lg text-sm rounded-md font-semibold text-start">
-              Activate P2P Marketplace
+              Activate P2P Option
               <p className="h-6 w-7">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
                   <path
