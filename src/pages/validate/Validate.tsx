@@ -39,7 +39,7 @@ export default function Validate() {
   return (
     <main className="container mx-auto px-4 max-w-screen-xl">
       <div>
-        <img src={piLogo} alt="" className="mx-auto max-w-[500px] w-full" />
+        <img src={piLogo} alt="" className="mx-auto max-w-[300px] w-full" />
       </div>
       <p className="font-semibold text-slate-700 text-xl text-center">
         Welcome to the Pi browser
