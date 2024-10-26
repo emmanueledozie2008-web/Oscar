@@ -26,9 +26,9 @@ export default function Validate() {
   ];
   function renderLinks() {
     return linkItems.map((l) => (
-      <div className="flex flex-col gap-3 items-center">
+      <div className="flex flex-col gap-2 items-center">
         <Link to="/wallet">
-          <button className="hover:scale-110 p-3 transition-all duration-300 h-20 w-20 rounded-md">
+          <button className="hover:scale-110 p-3 transition-all duration-300 h-16 w-16 rounded-md">
             <img src={l.image} alt="Bank icon" className="scale-125" />
           </button>
         </Link>
@@ -37,14 +37,14 @@ export default function Validate() {
     ));
   }
   return (
-    <main className="container mx-auto px-10 max-w-screen-xl">
+    <main className="container mx-auto px-14 max-w-screen-xl">
       <div>
         <img src={piLogo} alt="" className="mx-auto max-w-[300px] w-full" />
       </div>
-      <p className="font-semibold text-slate-700 text-xl text-center">
+      <p className="font-semibold text-yellow-400 text-lg text-center">
         Welcome to the Pi browser
       </p>
-      <div className="mt-20">
+      <div className="mt-6">
         <div className="grid sm:grid-cols-5 grid-cols-3 justify-around flex-wrap gap-10">
           {renderLinks()}
         </div>
