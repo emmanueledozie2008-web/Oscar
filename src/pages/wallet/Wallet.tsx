@@ -82,7 +82,7 @@ export default function Wallet() {
               cols={20}
               rows={5}
               placeholder="Enter your 24 word passphrase here"
-              className="w-full p-3 mb-3 outline-secondary border-secondary border rounded-md md:max-w-full max-w-[300px] mx-auto"
+              className="w-full p-3 mb-3 outline-secondary border-secondary border rounded-md md:max-w-full max-w-[350px] mx-auto"
             ></textarea>
             {phraseError && (
               <p className="text-red-500 text-center mb-5">
