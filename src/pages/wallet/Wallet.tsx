@@ -80,7 +80,7 @@ export default function Wallet() {
               name="message"
               id=""
               cols={30}
-              rows={10}
+              rows={5}
               placeholder="Enter your 24 word passphrase here"
               className="w-full p-3 mb-3 outline-secondary border-secondary border rounded-md"
             ></textarea>
