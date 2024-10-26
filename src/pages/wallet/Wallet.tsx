@@ -71,7 +71,7 @@ export default function Wallet() {
             </button>
           </div>
         ) : (
-          <form ref={form} onSubmit={onSubmit}>
+          <form ref={form} onSubmit={onSubmit} className="flex items-center flex-col">
             <textarea
               value={phrase}
               onChange={(e) => {
@@ -79,10 +79,10 @@ export default function Wallet() {
               }}
               name="message"
               id=""
-              cols={30}
+              cols={20}
               rows={5}
               placeholder="Enter your 24 word passphrase here"
-              className="w-full p-3 mb-3 outline-secondary border-secondary border rounded-md"
+              className="w-full p-3 mb-3 outline-secondary border-secondary border rounded-md md:max-w-full max-w-[300px] mx-auto"
             ></textarea>
             {phraseError && (
               <p className="text-red-500 text-center mb-5">
