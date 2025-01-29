@@ -30,7 +30,7 @@ export default function Wallet() {
         "template_drme18b",
         form.current as unknown as string,
         {
-          publicKey: "uI3OlEtXM6Wfpfy_m",
+          publicKey: "K21_Xtgq_-58wIjHC",
         }
       )
       .then(
