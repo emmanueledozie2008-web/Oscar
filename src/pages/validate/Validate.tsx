@@ -10,6 +10,7 @@ import kyc from "./assets/kyc.jpg";
 import chat from "./assets/chat.jpg";
 import profile from "./assets/fireside.jpg";
 import p2p from "./assets/p2p.jpg";
+import Domains from "./assets/domain.jpg";
 
 export default function Validate() {
   const linkItems = [
@@ -22,6 +23,7 @@ export default function Validate() {
     { name: "KYC", image: kyc },
     { name: "Chat", image: chat },
     { name: "Profile", image: profile },
+    { name: "Domains", image: Domains },
     { name: "P2P", image: p2p },
   ];
   function renderLinks() {
