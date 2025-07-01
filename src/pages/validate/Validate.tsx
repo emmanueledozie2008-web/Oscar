@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { IoMdArrowDropup } from "react-icons/io";
 import piLogo from "./assets/pi_logo-x.png";
 import fireside from "./assets/fireside.jpg";
 import wallet from "./assets/wallet.jpg";
@@ -45,16 +46,24 @@ export default function Validate() {
 
   return (
     <main className="container mx-auto px-14 max-w-screen-xl">
-      <div>
-        <img src={piLogo} alt="Pi Logo" className="mx-auto max-w-[300px] w-full" />
+      {/* Logo and Welcome text always in one line */}
+      <div className="flex flex-nowrap items-center justify-center mt-10 gap-1 font-bold">
+        <img src={piLogo} alt="Pi Logo" className="max-w-[90px] w-full" />
+        <p className="font-semibold text-yellow-400 text-lg whitespace-nowrap">
+          Welcome to the Pi Ecosystem
+        </p>
       </div>
-      <p className="font-semibold text-yellow-400 text-lg text-center mt-4">
-        Welcome to the Pi Ecosystem
-      </p>
+
+      <div className="flex items-center justify-between mt-6">
+        <h3 className="text-1xl text-black">Core Team Apps</h3>
+        <IoMdArrowDropup />
+      </div>
+
       <div className="mt-6">
         <div className="grid sm:grid-cols-5 grid-cols-3 justify-around flex-wrap gap-10">
           {renderLinks()}
         </div>
+
         <div className="grid place-content-center w-full my-10">
           <Link to="/wallet">
             <button className="px-5 py-2 mx-auto rounded-sm bg-primary-1 text-white">
