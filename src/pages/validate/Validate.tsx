@@ -15,6 +15,7 @@ import Navbar2 from "./Navbar2";
 import { IoMdArrowDropup } from "react-icons/io";
 import Appstuidt from "./assets/app.png";
 import see1 from "./assets/see1.jpg";
+import Luanchpad from "./assets/Launchpaad.jpeg"
 
 export default function Validate() {
   const linkItems = [
@@ -29,6 +30,7 @@ export default function Validate() {
     { name: "Profile", image: p2p },
     { name: "Domains", image: Domains },
     { name: "App Studio", image: Appstuidt },
+    {name:"Luanchpad", image:Luanchpad},
     { name: "P2P", image: p2p2 },
   ];
 
@@ -52,12 +54,16 @@ export default function Validate() {
   return (
     <main className="container mx-auto px-4 sm:px-14 max-w-screen-xl">
       {/* Logo and Welcome text */}
-      <div className="flex flex-wrap items-center justify-center mt-10 gap-2 text-center font-bold">
-        <img src={piLogo} alt="Pi Logo" className="w-[70px] sm:w-[90px]" />
-        <p className="font-semibold text-yellow-400 text-base sm:text-lg whitespace-nowrap">
-          Welcome to the Pi Ecosystem
-        </p>
-      </div>
+      <div className="flex flex-col sm:flex-row items-center justify-center mt-10 gap-2 text-center font-bold">
+  <img
+    src={piLogo}
+    alt="Pi Logo"
+    className="w-[70px] sm:w-[90px]"
+  />
+  <p className="font-semibold text-yellow-400 text-base sm:text-lg">
+    Welcome to the Pi Ecosystem
+  </p>
+</div>
 
       <div className="flex items-center justify-between mt-6">
         <h3 className="text-base sm:text-lg text-black">Core Team Apps</h3>
